@@ -1,0 +1,198 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+main, footer {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+}
+
+footer{
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+h1, h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.container-form{
+  max-width: 50%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+span {
+  color: red;
+}
+
+/* Estilos CSS para las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #4CAF50;
+  background-color: #4CAF50;
+
+
+}
+
+td {
+  color: #fff;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabla-container {
+  max-width: 80%;
+}
+
+.listado-container {
+  max-width: 70%;
+}
+.boton-container {
+  margin-block: 30px;
+}
+a{
+  text-decoration: none;
+}
+.listado-servicios a {
+  color: #3e8e41;
+  font-size: 20px;
+}
+
+.listado-servicios li::marker {
+  content: 🐾;
+}
+
+nav{
+  text-align: center;
+  background: rgba(31, 17, 16, 0.9);
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  color: white;
+}
+
+.img-container {
+  text-align: center;
+}
+
+#colPortada1, #colPortada2, #colPortada3, #colPortada4{
+  width: 22%;
+}
+
+#columnas{
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+#columnas h2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.col{
+  padding: 1em;
+  text-align: justify;
+}
+
+.iconoh2{
+  width: 1em;
+  margin: 0;
+  padding-right: 0.5em ;
+}
+
+.imgComplemento{
+  float: left;
+  margin: 2px 5px;
+  width: 50%;
+  border-radius: 1em;
+}
+
+.imgContenido{
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.imgContenido2{
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.imgContenido, .imgContenido2{
+  width: 30%;
+  border-radius: 2em;
+  box-shadow: 5px 6px 5px olive;
+}
